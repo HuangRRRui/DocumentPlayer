@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NSUIntegerVC.h
 //  DocumentPlayer
 //
 //  Created by 黄瑞 on 2019/7/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface NSUIntegerVC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
