@@ -29,7 +29,6 @@ UITableViewDataSource
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self configTableView];
-    [self NSDecimalCopy];
 }
 
 #pragma mark - NSNotification method
@@ -122,14 +121,6 @@ UITableViewDataSource
 }
 
 #pragma mark - Other
-#pragma mark - UI config
-- (void)configTableView
-{
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
-    self.tableView.dataSource = self;
-    [self.view addSubview:self.tableView];
-}
-
 - (NSString *)NSDecimalCopy
 {
     NSDecimalNumber *num = [[NSDecimalNumber alloc] initWithString:@"1.2345"];
@@ -370,6 +361,14 @@ UITableViewDataSource
     returnString = [returnString stringByAppendingFormat:@", %@ %@ %@", n1, resultString, n1];
     
     return returnString;
+}
+
+#pragma mark - UI config
+- (void)configTableView
+{
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
 }
 
 #pragma mark - UI update

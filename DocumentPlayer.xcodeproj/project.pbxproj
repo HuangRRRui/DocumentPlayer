@@ -23,6 +23,8 @@
 		046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF49E22D8775D002C015D /* NSIntegerVC.m */; };
 		046CF4A322D87893002C015D /* NSUIntegerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4A222D87893002C015D /* NSUIntegerVC.m */; };
 		046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4A622D8792A002C015D /* NSDecimalVC.m */; };
+		046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */; };
+		046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,10 @@
 		046CF4A222D87893002C015D /* NSUIntegerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUIntegerVC.m; sourceTree = "<group>"; };
 		046CF4A522D8792A002C015D /* NSDecimalVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDecimalVC.h; sourceTree = "<group>"; };
 		046CF4A622D8792A002C015D /* NSDecimalVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDecimalVC.m; sourceTree = "<group>"; };
+		046CF4A922D9B3C6002C015D /* NSDecimalNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberVC.h; sourceTree = "<group>"; };
+		046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDecimalNumberVC.m; sourceTree = "<group>"; };
+		046CF4AD22D9C560002C015D /* DecimalNumberBehaviors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalNumberBehaviors.h; sourceTree = "<group>"; };
+		046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalNumberBehaviors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +184,7 @@
 				046CF49C22D8774F002C015D /* NSInteger */,
 				046CF4A022D87887002C015D /* NSUIntegerVC */,
 				046CF4A422D8791B002C015D /* NSDecimal */,
+				046CF4A822D9B3A7002C015D /* NSDecimalNumber */,
 				046CF49822D876B3002C015D /* NumbersVC.h */,
 				046CF49922D876B3002C015D /* NumbersVC.m */,
 			);
@@ -209,6 +216,25 @@
 				046CF4A622D8792A002C015D /* NSDecimalVC.m */,
 			);
 			path = NSDecimal;
+			sourceTree = "<group>";
+		};
+		046CF4A822D9B3A7002C015D /* NSDecimalNumber */ = {
+			isa = PBXGroup;
+			children = (
+				046CF4AC22D9C54F002C015D /* Model */,
+				046CF4A922D9B3C6002C015D /* NSDecimalNumberVC.h */,
+				046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */,
+			);
+			path = NSDecimalNumber;
+			sourceTree = "<group>";
+		};
+		046CF4AC22D9C54F002C015D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046CF4AD22D9C560002C015D /* DecimalNumberBehaviors.h */,
+				046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +311,9 @@
 				046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */,
 				046CF49722D87661002C015D /* NumbersDataandBasicValuesVC.m in Sources */,
 				046CF48822D871AA002C015D /* AppFrameworksVC.m in Sources */,
+				046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */,
 				046CF49A22D876B3002C015D /* NumbersVC.m in Sources */,
+				046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */,
 				046CF48C22D871C3002C015D /* BaseTableVC.m in Sources */,
 				045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */,
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,

@@ -21,7 +21,7 @@
                        [BaseCellModel modelWithTitle:@"NSInteger" jumpClass:@"NSIntegerVC"],
                        [BaseCellModel modelWithTitle:@"NSUInteger" jumpClass:@"NSUIntegerVC"],
                        [BaseCellModel modelWithTitle:@"NSDecimal" jumpClass:@"NSDecimalVC"],
-                       [BaseCellModel modelWithTitle:@"NSDecimalNumber" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"NSDecimalNumber" jumpClass:@"NSDecimalNumberVC"],
                        [BaseCellModel modelWithTitle:@"NSNumber" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"NSNumberFormatter" jumpClass:@""],
                        ];
