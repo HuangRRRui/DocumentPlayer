@@ -58,6 +58,14 @@ UITableViewDataSource
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     BaseCellModel *model = self.titleList[indexPath.row];
     cell.textLabel.text = model.title;
+    if ([model.jumpClass isEqualToString:@""])
+    {
+        cell.textLabel.textColor = [UIColor lightGrayColor];
+    }
+    else
+    {
+        cell.textLabel.textColor = [UIColor darkTextColor];
+    }
     return cell;
 }
 

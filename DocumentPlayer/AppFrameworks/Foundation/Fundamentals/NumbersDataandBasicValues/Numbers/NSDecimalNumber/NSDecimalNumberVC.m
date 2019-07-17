@@ -40,7 +40,7 @@ UITableViewDataSource
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 99;
+    return 25;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -144,6 +144,10 @@ UITableViewDataSource
         case 23:
             cell.textLabel.text = @"- decimalNumberByRoundingAccordingToBehavior:";
             cell.detailTextLabel.text = [self decimalNumberByRoundingAccordingToBehavior_];
+            break;
+        case 24:
+            cell.textLabel.text = @"- compare:";
+            cell.detailTextLabel.text = [self compare_];
             break;
     }
     return cell;
@@ -329,6 +333,61 @@ UITableViewDataSource
     NSDecimalNumber *n1 = [NSDecimalNumber decimalNumberWithString:@"1.2345678"];
     NSDecimalNumber *n2 = [n1 decimalNumberByRoundingAccordingToBehavior:behavior];
     return [NSString stringWithFormat:@"%@", n2];
+}
+
+- (NSString *)compare_
+{
+    NSDecimalNumber *n1 = [NSDecimalNumber decimalNumberWithString:@"1.234"];
+    NSDecimalNumber *n2 = [NSDecimalNumber decimalNumberWithString:@"2.345"];
+    
+    NSString *returnString = @"";
+    NSComparisonResult result = [n1 compare:n2];
+    NSString *resultString;
+    if (result == NSOrderedAscending)
+    {
+        resultString = @"<";
+    }
+    else if (result == NSOrderedSame)
+    {
+        resultString = @"=";
+    }
+    else
+    {
+        resultString = @">";
+    }
+    returnString = [returnString stringByAppendingFormat:@"%@ %@ %@", n1, resultString, n2];
+    
+    result = [n2 compare:n1];
+    if (result == NSOrderedAscending)
+    {
+        resultString = @"<";
+    }
+    else if (result == NSOrderedSame)
+    {
+        resultString = @"=";
+    }
+    else
+    {
+        resultString = @">";
+    }
+    returnString = [returnString stringByAppendingFormat:@", %@ %@ %@", n2, resultString, n1];
+    
+    result = [n1 compare:n1];
+    if (result == NSOrderedAscending)
+    {
+        resultString = @"<";
+    }
+    else if (result == NSOrderedSame)
+    {
+        resultString = @"=";
+    }
+    else
+    {
+        resultString = @">";
+    }
+    returnString = [returnString stringByAppendingFormat:@", %@ %@ %@", n1, resultString, n1];
+    
+    return returnString;
 }
 
 #pragma mark - UI config
