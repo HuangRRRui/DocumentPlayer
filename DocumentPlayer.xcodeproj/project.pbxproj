@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040908C622E5863100D40DE1 /* FiltersandSortingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040908C522E5863100D40DE1 /* FiltersandSortingVC.m */; };
+		040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040908C922E5868F00D40DE1 /* NSPredicateVC.m */; };
 		040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040BB94D22DDC57C002AF92A /* NSNumberVC.m */; };
 		045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637BE22D86CB5008F8E8B /* AppDelegate.m */; };
 		045637C522D86CB5008F8E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045637C322D86CB5008F8E8B /* Main.storyboard */; };
@@ -32,6 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040908C422E5863100D40DE1 /* FiltersandSortingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltersandSortingVC.h; sourceTree = "<group>"; };
+		040908C522E5863100D40DE1 /* FiltersandSortingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltersandSortingVC.m; sourceTree = "<group>"; };
+		040908C822E5868F00D40DE1 /* NSPredicateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPredicateVC.h; sourceTree = "<group>"; };
+		040908C922E5868F00D40DE1 /* NSPredicateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPredicateVC.m; sourceTree = "<group>"; };
 		040BB94C22DDC57C002AF92A /* NSNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberVC.h; sourceTree = "<group>"; };
 		040BB94D22DDC57C002AF92A /* NSNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberVC.m; sourceTree = "<group>"; };
 		045637BA22D86CB5008F8E8B /* DocumentPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040908C322E5861100D40DE1 /* FiltersandSorting */ = {
+			isa = PBXGroup;
+			children = (
+				040908C722E5864900D40DE1 /* NSPredicate */,
+				040908C422E5863100D40DE1 /* FiltersandSortingVC.h */,
+				040908C522E5863100D40DE1 /* FiltersandSortingVC.m */,
+			);
+			path = FiltersandSorting;
+			sourceTree = "<group>";
+		};
+		040908C722E5864900D40DE1 /* NSPredicate */ = {
+			isa = PBXGroup;
+			children = (
+				040908C822E5868F00D40DE1 /* NSPredicateVC.h */,
+				040908C922E5868F00D40DE1 /* NSPredicateVC.m */,
+			);
+			path = NSPredicate;
+			sourceTree = "<group>";
+		};
 		040BB94B22DDC51E002AF92A /* NSNumber */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +141,8 @@
 		045637BC22D86CB5008F8E8B /* DocumentPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				04CFB6A422DEACB1006C58FD /* AppServices */,
 				046CF48422D8716F002C015D /* AppFrameworks */,
+				04CFB6A422DEACB1006C58FD /* AppServices */,
 				046CF47E22D86E3E002C015D /* Base */,
 				045637BD22D86CB5008F8E8B /* AppDelegate.h */,
 				045637BE22D86CB5008F8E8B /* AppDelegate.m */,
@@ -184,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				046CF49422D87642002C015D /* NumbersDataandBasicValues */,
+				040908C322E5861100D40DE1 /* FiltersandSorting */,
 				046CF49122D875B8002C015D /* FundamentalsVC.h */,
 				046CF49222D875B8002C015D /* FundamentalsVC.m */,
 			);
@@ -362,6 +388,7 @@
 				045637CD22D86CB6008F8E8B /* main.m in Sources */,
 				046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */,
 				046CF49722D87661002C015D /* NumbersDataandBasicValuesVC.m in Sources */,
+				040908C622E5863100D40DE1 /* FiltersandSortingVC.m in Sources */,
 				046CF48822D871AA002C015D /* AppFrameworksVC.m in Sources */,
 				046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */,
 				04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */,
@@ -369,6 +396,7 @@
 				04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */,
 				046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */,
 				046CF48C22D871C3002C015D /* BaseTableVC.m in Sources */,
+				040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */,
 				045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */,
 				04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */,
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,

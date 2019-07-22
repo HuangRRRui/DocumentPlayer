@@ -24,7 +24,7 @@
                        [BaseCellModel modelWithTitle:@"Dates and Times" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"Units and Measurement" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"Data Formatting" jumpClass:@""],
-                       [BaseCellModel modelWithTitle:@"Filters and Sorting" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"Filters and Sorting" jumpClass:@"FiltersandSortingVC"],
                        ];
 }
 
