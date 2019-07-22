@@ -20,62 +20,92 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Contacts";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    CNMutableContact *contact = [[CNMutableContact alloc] init];
-    
-    contact.givenName = @"RUI";
-    contact.familyName = @"HUANG";
-    contact.imageData = [NSData new];
-    
-    CNLabeledValue *homeEmail = [[CNLabeledValue alloc] initWithLabel:CNLabelHome value:@"345381783@qq.com"];
-    CNLabeledValue *workEmail = [[CNLabeledValue alloc] initWithLabel:CNLabelWork value:@"13618641207@163.com"];
-    contact.emailAddresses = @[homeEmail, workEmail];
-    
-    CNLabeledValue *homePhone = [[CNLabeledValue alloc] initWithLabel:CNLabelHome value:[CNPhoneNumber phoneNumberWithStringValue:@"13618641207"]];
-    CNLabeledValue *workPhone = [[CNLabeledValue alloc] initWithLabel:CNLabelWork value:[CNPhoneNumber phoneNumberWithStringValue:@"17157864462"]];
-    contact.phoneNumbers = @[homePhone, workPhone];
-    
-    CNMutablePostalAddress *address = [[CNMutablePostalAddress alloc] init];
-    address.street = @"友谊大道";
-    address.city = @"武汉";
-    address.state = @"湖北";
-    address.postalCode = @"430070";
-    address.country = @"中国";
-    address.ISOCountryCode = @"+86";
-    CNLabeledValue *homeAddress = [[CNLabeledValue alloc] initWithLabel:CNLabelHome value:address];
-    contact.postalAddresses = @[homeAddress];
-    
-    NSDateComponents *birthday = [[NSDateComponents alloc] init];
-    birthday.year = 1991;
-    birthday.month = 12;
-    birthday.day = 26;
-    contact.birthday = birthday;
+    NSError *error;
+    BOOL result;
     
     CNContactStore *store = [[CNContactStore alloc] init];
-    CNSaveRequest *request = [[CNSaveRequest alloc] init];
-    [request addContact:contact toContainerWithIdentifier:nil];
     
-    NSError *error = nil;
-    [store executeSaveRequest:request error:&error];
-    if (error)
+    [store requestAccessForEntityType:CNEntityTypeContacts completionHandler:^(BOOL granted, NSError * _Nullable error) {
+        NSLog(@"granted = %@, error = %@", granted ? @"YES" : @"NO", error);
+    }];
+    
+    CNAuthorizationStatus status = [CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts];
+    switch (status)
     {
-        NSLog(@"error = %@", error);
+        case CNAuthorizationStatusDenied:
+            NSLog(@"status = CNAuthorizationStatusDenied");
+            break;
+        case CNAuthorizationStatusAuthorized:
+            NSLog(@"status = CNAuthorizationStatusAuthorized");
+            break;
+        case CNAuthorizationStatusRestricted:
+            NSLog(@"status = CNAuthorizationStatusRestricted");
+            break;
+        case CNAuthorizationStatusNotDetermined:
+            NSLog(@"status = CNAuthorizationStatusNotDetermined");
+            break;
     }
     
-    NSString *fullName = [CNContactFormatter stringFromContact:contact style:CNContactFormatterStyleFullName];
-    NSLog(@"fullName = %@", fullName);
+    NSMutableArray <NSString *> *identifierList = [NSMutableArray array];
+    CNContactFetchRequest *fetchRequest = [[CNContactFetchRequest alloc] initWithKeysToFetch:@[CNContactGivenNameKey]];
+    result = [store enumerateContactsWithFetchRequest:fetchRequest error:&error usingBlock:^(CNContact * _Nonnull contact, BOOL * _Nonnull stop) {
+        [identifierList addObject:contact.identifier];
+    }];
+    NSLog(@"enumerateContactsWithFetchRequest:error:usingBlock: = %@", result ? @"success" : @"failure");
+    NSLog(@"identifier list = %@", identifierList);
     
-    NSString *postalString = [CNPostalAddressFormatter stringFromPostalAddress:address style:CNPostalAddressFormatterStyleMailingAddress];
-    NSLog(@"postalString = %@", postalString);
+    NSString *identifier = identifierList[0];
+    NSArray *keysToFetch = @[CNContactGivenNameKey, CNContactFamilyNameKey];
+    CNContact *contact = [store unifiedContactWithIdentifier:identifier keysToFetch:keysToFetch error:&error];
+    if (error)
+    {
+        NSLog(@"unifiedContactWithIdentifier:keysToFetch:error: failure %@", error);
+    }
+    else
+    {
+        NSLog(@"unifiedContactWithIdentifier:keysToFetch:error: success");
+        NSLog(@"%@", contact);
+    }
     
-    NSString *displayName = [CNContact localizedStringForKey:CNContactNicknameKey];
-    NSLog(@"displayName = %@", displayName);
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"familyName == Haro"];
+    keysToFetch = @[CNContactGivenNameKey, CNContactFamilyNameKey];
+    NSArray <CNContact *> *contactList = [store unifiedContactsMatchingPredicate:predicate keysToFetch:keysToFetch error:&error];
+    if (error)
+    {
+        NSLog(@"unifiedContactsMatchingPredicate:keysToFetch:error: failure %@", error);
+    }
+    else
+    {
+        NSLog(@"unifiedContactsMatchingPredicate:keysToFetch:error: success");
+        NSLog(@"%@", contactList);
+    }
     
-    NSString *displayLabel = [CNLabeledValue localizedStringForLabel:CNLabelHome];
-    NSLog(@"displayLabel = %@", displayLabel);
+    NSMutableArray <NSDictionary *> *phoneNumberList = [NSMutableArray array];
+    for (NSString *identifier in identifierList)
+    {
+        NSArray *keysToFetch = @[CNContactGivenNameKey, CNContactFamilyNameKey, CNContactPhoneNumbersKey];
+        CNContact *contact = [store unifiedContactWithIdentifier:identifier keysToFetch:keysToFetch error:&error];
+        for (CNLabeledValue <CNPhoneNumber *> *value in contact.phoneNumbers)
+        {
+            [phoneNumberList addObject:@{
+                                         @"mName":[NSString stringWithFormat:@"%@%@", contact.familyName, contact.givenName],
+                                         @"mobile":value.value.stringValue,
+                                         }];
+        }
+    }
     
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:phoneNumberList options:NSJSONWritingSortedKeys error:&error];
+    if (error)
+    {
+        NSLog(@"%@", error);
+    }
+    else
+    {
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        NSLog(@"jsonString = %@", jsonString);
+    }
 }
 
 #pragma mark - NSNotification method
