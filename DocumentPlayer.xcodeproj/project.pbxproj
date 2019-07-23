@@ -10,6 +10,15 @@
 		040908C622E5863100D40DE1 /* FiltersandSortingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040908C522E5863100D40DE1 /* FiltersandSortingVC.m */; };
 		040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040908C922E5868F00D40DE1 /* NSPredicateVC.m */; };
 		040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040BB94D22DDC57C002AF92A /* NSNumberVC.m */; };
+		042C357B22E6BC9E00FE3546 /* MediaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C357A22E6BC9E00FE3546 /* MediaVC.m */; };
+		042C357F22E6BCC000FE3546 /* CoreAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C357E22E6BCC000FE3546 /* CoreAudioVC.m */; };
+		042C358322E6BDA900FE3546 /* CoreAudioStructuresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C358222E6BDA900FE3546 /* CoreAudioStructuresVC.m */; };
+		042C358722E6BDC200FE3546 /* CoreAudioDataTypesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C358622E6BDC200FE3546 /* CoreAudioDataTypesVC.m */; };
+		042C358B22E6D4A900FE3546 /* CoreAudioFunctionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C358A22E6D4A900FE3546 /* CoreAudioFunctionsVC.m */; };
+		042C358F22E6D4C300FE3546 /* CoreAudioConstantsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C358E22E6D4C300FE3546 /* CoreAudioConstantsVC.m */; };
+		042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359222E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m */; };
+		042C359722E6D6B400FE3546 /* CoreAudioKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */; };
+		042C359F22E6D8DB00FE3546 /* AUViewControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */; };
 		045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637BE22D86CB5008F8E8B /* AppDelegate.m */; };
 		045637C522D86CB5008F8E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045637C322D86CB5008F8E8B /* Main.storyboard */; };
 		045637C722D86CB6008F8E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045637C622D86CB6008F8E8B /* Assets.xcassets */; };
@@ -40,6 +49,24 @@
 		040908C922E5868F00D40DE1 /* NSPredicateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPredicateVC.m; sourceTree = "<group>"; };
 		040BB94C22DDC57C002AF92A /* NSNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberVC.h; sourceTree = "<group>"; };
 		040BB94D22DDC57C002AF92A /* NSNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberVC.m; sourceTree = "<group>"; };
+		042C357922E6BC9E00FE3546 /* MediaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaVC.h; sourceTree = "<group>"; };
+		042C357A22E6BC9E00FE3546 /* MediaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaVC.m; sourceTree = "<group>"; };
+		042C357D22E6BCC000FE3546 /* CoreAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioVC.h; sourceTree = "<group>"; };
+		042C357E22E6BCC000FE3546 /* CoreAudioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioVC.m; sourceTree = "<group>"; };
+		042C358122E6BDA900FE3546 /* CoreAudioStructuresVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioStructuresVC.h; sourceTree = "<group>"; };
+		042C358222E6BDA900FE3546 /* CoreAudioStructuresVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioStructuresVC.m; sourceTree = "<group>"; };
+		042C358522E6BDC200FE3546 /* CoreAudioDataTypesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioDataTypesVC.h; sourceTree = "<group>"; };
+		042C358622E6BDC200FE3546 /* CoreAudioDataTypesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioDataTypesVC.m; sourceTree = "<group>"; };
+		042C358922E6D4A900FE3546 /* CoreAudioFunctionsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioFunctionsVC.h; sourceTree = "<group>"; };
+		042C358A22E6D4A900FE3546 /* CoreAudioFunctionsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioFunctionsVC.m; sourceTree = "<group>"; };
+		042C358D22E6D4C300FE3546 /* CoreAudioConstantsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioConstantsVC.h; sourceTree = "<group>"; };
+		042C358E22E6D4C300FE3546 /* CoreAudioConstantsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioConstantsVC.m; sourceTree = "<group>"; };
+		042C359122E6D4FC00FE3546 /* CoreAudioEnumerationsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioEnumerationsVC.h; sourceTree = "<group>"; };
+		042C359222E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioEnumerationsVC.m; sourceTree = "<group>"; };
+		042C359522E6D6B400FE3546 /* CoreAudioKitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioKitVC.h; sourceTree = "<group>"; };
+		042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioKitVC.m; sourceTree = "<group>"; };
+		042C359D22E6D8DB00FE3546 /* AUViewControllerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUViewControllerVC.h; sourceTree = "<group>"; };
+		042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUViewControllerVC.m; sourceTree = "<group>"; };
 		045637BA22D86CB5008F8E8B /* DocumentPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045637BD22D86CB5008F8E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		045637BE22D86CB5008F8E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +149,95 @@
 			path = NSNumber;
 			sourceTree = "<group>";
 		};
+		042C357822E6BC8800FE3546 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				042C357C22E6BCB000FE3546 /* CoreAudio */,
+				042C359422E6D6A300FE3546 /* CoreAudioKit */,
+				042C357922E6BC9E00FE3546 /* MediaVC.h */,
+				042C357A22E6BC9E00FE3546 /* MediaVC.m */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		042C357C22E6BCB000FE3546 /* CoreAudio */ = {
+			isa = PBXGroup;
+			children = (
+				042C358022E6BD9900FE3546 /* CoreAudioStructures */,
+				042C358422E6BDB000FE3546 /* CoreAudioDataTypes */,
+				042C358822E6D49C00FE3546 /* CoreAudioFunctions */,
+				042C358C22E6D4B200FE3546 /* CoreAudioConstants */,
+				042C359022E6D4EC00FE3546 /* CoreAudioEnumerations */,
+				042C357D22E6BCC000FE3546 /* CoreAudioVC.h */,
+				042C357E22E6BCC000FE3546 /* CoreAudioVC.m */,
+			);
+			path = CoreAudio;
+			sourceTree = "<group>";
+		};
+		042C358022E6BD9900FE3546 /* CoreAudioStructures */ = {
+			isa = PBXGroup;
+			children = (
+				042C358122E6BDA900FE3546 /* CoreAudioStructuresVC.h */,
+				042C358222E6BDA900FE3546 /* CoreAudioStructuresVC.m */,
+			);
+			path = CoreAudioStructures;
+			sourceTree = "<group>";
+		};
+		042C358422E6BDB000FE3546 /* CoreAudioDataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				042C358522E6BDC200FE3546 /* CoreAudioDataTypesVC.h */,
+				042C358622E6BDC200FE3546 /* CoreAudioDataTypesVC.m */,
+			);
+			path = CoreAudioDataTypes;
+			sourceTree = "<group>";
+		};
+		042C358822E6D49C00FE3546 /* CoreAudioFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				042C358922E6D4A900FE3546 /* CoreAudioFunctionsVC.h */,
+				042C358A22E6D4A900FE3546 /* CoreAudioFunctionsVC.m */,
+			);
+			path = CoreAudioFunctions;
+			sourceTree = "<group>";
+		};
+		042C358C22E6D4B200FE3546 /* CoreAudioConstants */ = {
+			isa = PBXGroup;
+			children = (
+				042C358D22E6D4C300FE3546 /* CoreAudioConstantsVC.h */,
+				042C358E22E6D4C300FE3546 /* CoreAudioConstantsVC.m */,
+			);
+			path = CoreAudioConstants;
+			sourceTree = "<group>";
+		};
+		042C359022E6D4EC00FE3546 /* CoreAudioEnumerations */ = {
+			isa = PBXGroup;
+			children = (
+				042C359122E6D4FC00FE3546 /* CoreAudioEnumerationsVC.h */,
+				042C359222E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m */,
+			);
+			path = CoreAudioEnumerations;
+			sourceTree = "<group>";
+		};
+		042C359422E6D6A300FE3546 /* CoreAudioKit */ = {
+			isa = PBXGroup;
+			children = (
+				042C359C22E6D7BF00FE3546 /* AUViewController */,
+				042C359522E6D6B400FE3546 /* CoreAudioKitVC.h */,
+				042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */,
+			);
+			path = CoreAudioKit;
+			sourceTree = "<group>";
+		};
+		042C359C22E6D7BF00FE3546 /* AUViewController */ = {
+			isa = PBXGroup;
+			children = (
+				042C359D22E6D8DB00FE3546 /* AUViewControllerVC.h */,
+				042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */,
+			);
+			path = AUViewController;
+			sourceTree = "<group>";
+		};
 		045637B122D86CB5008F8E8B = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +259,7 @@
 			children = (
 				046CF48422D8716F002C015D /* AppFrameworks */,
 				04CFB6A422DEACB1006C58FD /* AppServices */,
+				042C357822E6BC8800FE3546 /* Media */,
 				046CF47E22D86E3E002C015D /* Base */,
 				045637BD22D86CB5008F8E8B /* AppDelegate.h */,
 				045637BE22D86CB5008F8E8B /* AppDelegate.m */,
@@ -387,16 +504,25 @@
 			files = (
 				045637CD22D86CB6008F8E8B /* main.m in Sources */,
 				046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */,
+				042C358722E6BDC200FE3546 /* CoreAudioDataTypesVC.m in Sources */,
+				042C358322E6BDA900FE3546 /* CoreAudioStructuresVC.m in Sources */,
 				046CF49722D87661002C015D /* NumbersDataandBasicValuesVC.m in Sources */,
 				040908C622E5863100D40DE1 /* FiltersandSortingVC.m in Sources */,
+				042C358F22E6D4C300FE3546 /* CoreAudioConstantsVC.m in Sources */,
 				046CF48822D871AA002C015D /* AppFrameworksVC.m in Sources */,
+				042C357B22E6BC9E00FE3546 /* MediaVC.m in Sources */,
 				046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */,
 				04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */,
 				046CF49A22D876B3002C015D /* NumbersVC.m in Sources */,
+				042C358B22E6D4A900FE3546 /* CoreAudioFunctionsVC.m in Sources */,
 				04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */,
+				042C357F22E6BCC000FE3546 /* CoreAudioVC.m in Sources */,
 				046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */,
 				046CF48C22D871C3002C015D /* BaseTableVC.m in Sources */,
+				042C359722E6D6B400FE3546 /* CoreAudioKitVC.m in Sources */,
 				040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */,
+				042C359F22E6D8DB00FE3546 /* AUViewControllerVC.m in Sources */,
+				042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */,
 				045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */,
 				04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */,
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,
