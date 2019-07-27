@@ -27,7 +27,7 @@
                        [BaseCellModel modelWithTitle:@"TVMLKit" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"TVMLKit JS" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"TVUIKit" jumpClass:@""],
-                       [BaseCellModel modelWithTitle:@"UIKit" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"UIKit" jumpClass:@"UIKitVC"],
                        [BaseCellModel modelWithTitle:@"WatchKit" jumpClass:@""],
                        ];
 }

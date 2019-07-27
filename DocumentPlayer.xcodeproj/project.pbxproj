@@ -19,6 +19,7 @@
 		042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359222E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m */; };
 		042C359722E6D6B400FE3546 /* CoreAudioKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */; };
 		042C359F22E6D8DB00FE3546 /* AUViewControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */; };
+		0449BC1122EBEEC6001A2516 /* UIKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449BC1022EBEEC6001A2516 /* UIKitVC.m */; };
 		045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637BE22D86CB5008F8E8B /* AppDelegate.m */; };
 		045637C522D86CB5008F8E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045637C322D86CB5008F8E8B /* Main.storyboard */; };
 		045637C722D86CB6008F8E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045637C622D86CB6008F8E8B /* Assets.xcassets */; };
@@ -67,6 +68,8 @@
 		042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioKitVC.m; sourceTree = "<group>"; };
 		042C359D22E6D8DB00FE3546 /* AUViewControllerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUViewControllerVC.h; sourceTree = "<group>"; };
 		042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUViewControllerVC.m; sourceTree = "<group>"; };
+		0449BC0F22EBEEC6001A2516 /* UIKitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitVC.h; sourceTree = "<group>"; };
+		0449BC1022EBEEC6001A2516 /* UIKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitVC.m; sourceTree = "<group>"; };
 		045637BA22D86CB5008F8E8B /* DocumentPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045637BD22D86CB5008F8E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		045637BE22D86CB5008F8E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -238,6 +241,15 @@
 			path = AUViewController;
 			sourceTree = "<group>";
 		};
+		0449BC0E22EBEEB6001A2516 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0449BC0F22EBEEC6001A2516 /* UIKitVC.h */,
+				0449BC1022EBEEC6001A2516 /* UIKitVC.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		045637B122D86CB5008F8E8B = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				046CF48522D87195002C015D /* Foundation */,
+				0449BC0E22EBEEB6001A2516 /* UIKit */,
 				046CF48622D871AA002C015D /* AppFrameworksVC.h */,
 				046CF48722D871AA002C015D /* AppFrameworksVC.m */,
 			);
@@ -528,6 +541,7 @@
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,
 				040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */,
 				046CF48F22D874FB002C015D /* FoundationVC.m in Sources */,
+				0449BC1122EBEEC6001A2516 /* UIKitVC.m in Sources */,
 				046CF48222D86E5B002C015D /* BaseCellModel.m in Sources */,
 				046CF49322D875B8002C015D /* FundamentalsVC.m in Sources */,
 				046CF4A322D87893002C015D /* NSUIntegerVC.m in Sources */,
