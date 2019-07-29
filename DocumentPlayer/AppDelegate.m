@@ -15,40 +15,164 @@
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSLog(@"%s", __func__);
+    return YES;
+}
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSLog(@"%s", __func__);
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[DocumentVC alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }
 
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
 }
 
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
 }
 
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
 }
 
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
 }
 
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
 }
 
+- (void)applicationProtectedDataDidBecomeAvailable:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)applicationProtectedDataWillBecomeUnavailable:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)applicationSignificantTimeChange:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
+}
+
+- (BOOL)application:(UIApplication *)application shouldSaveApplicationState:(NSCoder *)coder
+{
+    NSLog(@"%s", __func__);
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder
+{
+    NSLog(@"%s", __func__);
+    return YES;
+}
+
+- (UIViewController *)application:(UIApplication *)application viewControllerWithRestorationIdentifierPath:(NSArray<NSString *> *)identifierComponents coder:(NSCoder *)coder
+{
+    NSLog(@"%s", __func__);
+    NSLog(@"identifierComponents = %@", identifierComponents);
+    return nil;
+}
+
+- (void)application:(UIApplication *)application willEncodeRestorableStateWithCoder:(NSCoder *)coder
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)application:(UIApplication *)application didDecodeRestorableStateWithCoder:(NSCoder *)coder
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)(void))completionHandler
+{
+    NSLog(@"%s", __func__);
+    completionHandler();
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    NSLog(@"%s", __func__);
+    completionHandler(UIBackgroundFetchResultNewData);
+}
+
+- (BOOL)application:(UIApplication *)application willContinueUserActivityWithType:(NSString *)userActivityType
+{
+    NSLog(@"%s", __func__);
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler
+{
+    NSLog(@"%s", __func__);
+    restorationHandler(nil);
+    return YES;
+}
+
+- (void)application:(UIApplication *)application didUpdateUserActivity:(NSUserActivity *)userActivity
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)application:(UIApplication *)application didFailToContinueUserActivityWithType:(NSString *)userActivityType error:(NSError *)error
+{
+    NSLog(@"%s", __func__);
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    NSLog(@"%s", __func__);
+    completionHandler(YES);
+}
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary * _Nullable))reply
+{
+    NSLog(@"%s", __func__);
+    reply(nil);
+}
+
+- (void)applicationShouldRequestHealthAuthorization:(UIApplication *)application
+{
+    NSLog(@"%s", __func__);
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    NSLog(@"%s", __func__);
+    NSLog(@"app = %@", app);
+    NSLog(@"url = %@", url);
+    NSLog(@"options = %@", options);
+    return NO;
+}
 
 @end
