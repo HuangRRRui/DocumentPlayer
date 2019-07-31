@@ -20,7 +20,7 @@
     [super viewDidLoad];
     self.title = @"UIKit";
     self.titleList = @[
-                       [BaseCellModel modelWithTitle:@"" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"App Structure" jumpClass:@"AppStructureVC"],
                        ];
 }
 #pragma mark - NSNotification method

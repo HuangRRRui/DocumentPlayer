@@ -84,6 +84,7 @@
 - (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder
 {
     NSLog(@"%s", __func__);
+    [application ignoreSnapshotOnNextApplicationLaunch];
     return YES;
 }
 
@@ -117,7 +118,7 @@
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
 {
-    NSLog(@"%s", __func__);
+    NSLog(@"%s error = %@", __func__, error);
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
@@ -173,6 +174,29 @@
     NSLog(@"url = %@", url);
     NSLog(@"options = %@", options);
     return NO;
+}
+
+- (BOOL)application:(UIApplication *)application shouldAllowExtensionPointIdentifier:(UIApplicationExtensionPointIdentifier)extensionPointIdentifier
+{
+    NSLog(@"%s", __func__);
+    return YES;
+}
+
+- (void)application:(UIApplication *)application handleIntent:(INIntent *)intent completionHandler:(void (^)(INIntentResponse * _Nonnull))completionHandler
+{
+    NSLog(@"%s", __func__);
+    completionHandler((INIntentResponse *)[NSObject new]);
+}
+
+- (void)application:(UIApplication *)application userDidAcceptCloudKitShareWithMetadata:(CKShareMetadata *)cloudKitShareMetadata
+{
+    NSLog(@"%s", __func__);
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    NSLog(@"%s", __func__);
+    return UIInterfaceOrientationMaskAll;
 }
 
 @end

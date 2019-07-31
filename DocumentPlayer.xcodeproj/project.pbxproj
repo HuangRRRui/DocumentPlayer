@@ -23,9 +23,13 @@
 		045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637BE22D86CB5008F8E8B /* AppDelegate.m */; };
 		045637C522D86CB5008F8E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045637C322D86CB5008F8E8B /* Main.storyboard */; };
 		045637C722D86CB6008F8E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045637C622D86CB6008F8E8B /* Assets.xcassets */; };
-		045637CA22D86CB6008F8E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045637C822D86CB6008F8E8B /* LaunchScreen.storyboard */; };
 		045637CD22D86CB6008F8E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637CC22D86CB6008F8E8B /* main.m */; };
 		045637D522D86CD2008F8E8B /* DocumentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637D422D86CD2008F8E8B /* DocumentVC.m */; };
+		04619D1622EFE1FB007FD182 /* UIDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04619D1522EFE1FB007FD182 /* UIDeviceVC.m */; };
+		04619D1B22F01CB2007FD182 /* AppStructureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04619D1A22F01CB2007FD182 /* AppStructureVC.m */; };
+		04619D1F22F01CFE007FD182 /* LifeCycleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04619D1E22F01CFE007FD182 /* LifeCycleVC.m */; };
+		04619D2322F01D83007FD182 /* DeviceEnvironmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04619D2222F01D83007FD182 /* DeviceEnvironmentVC.m */; };
+		04619D2722F01E5E007FD182 /* UIApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04619D2622F01E5E007FD182 /* UIApplicationVC.m */; };
 		046CF48222D86E5B002C015D /* BaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF48122D86E5B002C015D /* BaseCellModel.m */; };
 		046CF48822D871AA002C015D /* AppFrameworksVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF48722D871AA002C015D /* AppFrameworksVC.m */; };
 		046CF48C22D871C3002C015D /* BaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF48B22D871C3002C015D /* BaseTableVC.m */; };
@@ -38,6 +42,12 @@
 		046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4A622D8792A002C015D /* NSDecimalVC.m */; };
 		046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */; };
 		046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */; };
+		04924D0822F143B100922CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04924D0722F143B100922CC1 /* LaunchScreen.storyboard */; };
+		04A213C722F18F28009A21BB /* ChangeAppIconVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A213C622F18F28009A21BB /* ChangeAppIconVC.m */; };
+		04A213EE22F19FA5009A21BB /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A213EA22F19FA5009A21BB /* four.png */; };
+		04A213EF22F19FA5009A21BB /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A213EB22F19FA5009A21BB /* one.png */; };
+		04A213F022F19FA5009A21BB /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A213EC22F19FA5009A21BB /* three.png */; };
+		04A213F122F19FA5009A21BB /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A213ED22F19FA5009A21BB /* two.png */; };
 		04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6A722DEACD8006C58FD /* AppServicesVC.m */; };
 		04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AA22DEAD40006C58FD /* AddressBookVC.m */; };
 		04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AE22DEADA3006C58FD /* ContactsVC.m */; };
@@ -75,11 +85,20 @@
 		045637BE22D86CB5008F8E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		045637C422D86CB5008F8E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045637C622D86CB6008F8E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		045637C922D86CB6008F8E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045637CB22D86CB6008F8E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045637CC22D86CB6008F8E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		045637D322D86CD2008F8E8B /* DocumentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentVC.h; sourceTree = "<group>"; };
 		045637D422D86CD2008F8E8B /* DocumentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentVC.m; sourceTree = "<group>"; };
+		04619D1422EFE1FB007FD182 /* UIDeviceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDeviceVC.h; sourceTree = "<group>"; };
+		04619D1522EFE1FB007FD182 /* UIDeviceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDeviceVC.m; sourceTree = "<group>"; };
+		04619D1922F01CB2007FD182 /* AppStructureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStructureVC.h; sourceTree = "<group>"; };
+		04619D1A22F01CB2007FD182 /* AppStructureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStructureVC.m; sourceTree = "<group>"; };
+		04619D1D22F01CFE007FD182 /* LifeCycleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleVC.h; sourceTree = "<group>"; };
+		04619D1E22F01CFE007FD182 /* LifeCycleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleVC.m; sourceTree = "<group>"; };
+		04619D2122F01D83007FD182 /* DeviceEnvironmentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceEnvironmentVC.h; sourceTree = "<group>"; };
+		04619D2222F01D83007FD182 /* DeviceEnvironmentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceEnvironmentVC.m; sourceTree = "<group>"; };
+		04619D2522F01E5E007FD182 /* UIApplicationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIApplicationVC.h; sourceTree = "<group>"; };
+		04619D2622F01E5E007FD182 /* UIApplicationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIApplicationVC.m; sourceTree = "<group>"; };
 		046CF48022D86E5B002C015D /* BaseCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCellModel.h; sourceTree = "<group>"; };
 		046CF48122D86E5B002C015D /* BaseCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCellModel.m; sourceTree = "<group>"; };
 		046CF48322D86EDB002C015D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -105,6 +124,13 @@
 		046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDecimalNumberVC.m; sourceTree = "<group>"; };
 		046CF4AD22D9C560002C015D /* DecimalNumberBehaviors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalNumberBehaviors.h; sourceTree = "<group>"; };
 		046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalNumberBehaviors.m; sourceTree = "<group>"; };
+		04924D0722F143B100922CC1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A213C522F18F28009A21BB /* ChangeAppIconVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeAppIconVC.h; sourceTree = "<group>"; };
+		04A213C622F18F28009A21BB /* ChangeAppIconVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeAppIconVC.m; sourceTree = "<group>"; };
+		04A213EA22F19FA5009A21BB /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		04A213EB22F19FA5009A21BB /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		04A213EC22F19FA5009A21BB /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		04A213ED22F19FA5009A21BB /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
 		04CFB6A622DEACD8006C58FD /* AppServicesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppServicesVC.h; sourceTree = "<group>"; };
 		04CFB6A722DEACD8006C58FD /* AppServicesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppServicesVC.m; sourceTree = "<group>"; };
 		04CFB6A922DEAD40006C58FD /* AddressBookVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookVC.h; sourceTree = "<group>"; };
@@ -244,6 +270,7 @@
 		0449BC0E22EBEEB6001A2516 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				04619D1822F01C9D007FD182 /* AppStructure */,
 				0449BC0F22EBEEC6001A2516 /* UIKitVC.h */,
 				0449BC1022EBEEC6001A2516 /* UIKitVC.m */,
 			);
@@ -275,16 +302,66 @@
 				046CF47E22D86E3E002C015D /* Base */,
 				045637BD22D86CB5008F8E8B /* AppDelegate.h */,
 				045637BE22D86CB5008F8E8B /* AppDelegate.m */,
-				045637C322D86CB5008F8E8B /* Main.storyboard */,
-				045637C622D86CB6008F8E8B /* Assets.xcassets */,
-				045637C822D86CB6008F8E8B /* LaunchScreen.storyboard */,
-				045637CB22D86CB6008F8E8B /* Info.plist */,
-				045637CC22D86CB6008F8E8B /* main.m */,
 				045637D322D86CD2008F8E8B /* DocumentVC.h */,
 				045637D422D86CD2008F8E8B /* DocumentVC.m */,
+				045637C322D86CB5008F8E8B /* Main.storyboard */,
+				04924D0722F143B100922CC1 /* LaunchScreen.storyboard */,
+				045637C622D86CB6008F8E8B /* Assets.xcassets */,
+				045637CB22D86CB6008F8E8B /* Info.plist */,
+				045637CC22D86CB6008F8E8B /* main.m */,
 				046CF48322D86EDB002C015D /* PrefixHeader.pch */,
 			);
 			path = DocumentPlayer;
+			sourceTree = "<group>";
+		};
+		04619D1322EFE1EA007FD182 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				04619D1422EFE1FB007FD182 /* UIDeviceVC.h */,
+				04619D1522EFE1FB007FD182 /* UIDeviceVC.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		04619D1822F01C9D007FD182 /* AppStructure */ = {
+			isa = PBXGroup;
+			children = (
+				04619D1C22F01CEB007FD182 /* LifeCycle */,
+				04619D2022F01D09007FD182 /* DeviceEnvironment */,
+				04619D1922F01CB2007FD182 /* AppStructureVC.h */,
+				04619D1A22F01CB2007FD182 /* AppStructureVC.m */,
+			);
+			path = AppStructure;
+			sourceTree = "<group>";
+		};
+		04619D1C22F01CEB007FD182 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				04619D2422F01E4D007FD182 /* UIApplication */,
+				04619D1D22F01CFE007FD182 /* LifeCycleVC.h */,
+				04619D1E22F01CFE007FD182 /* LifeCycleVC.m */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		04619D2022F01D09007FD182 /* DeviceEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				04619D1322EFE1EA007FD182 /* UIDevice */,
+				04619D2122F01D83007FD182 /* DeviceEnvironmentVC.h */,
+				04619D2222F01D83007FD182 /* DeviceEnvironmentVC.m */,
+			);
+			path = DeviceEnvironment;
+			sourceTree = "<group>";
+		};
+		04619D2422F01E4D007FD182 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				04A213C422F18F14009A21BB /* ChnageAppIcon */,
+				04619D2522F01E5E007FD182 /* UIApplicationVC.h */,
+				04619D2622F01E5E007FD182 /* UIApplicationVC.m */,
+			);
+			path = UIApplication;
 			sourceTree = "<group>";
 		};
 		046CF47E22D86E3E002C015D /* Base */ = {
@@ -416,6 +493,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		04A213C422F18F14009A21BB /* ChnageAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				04A213E122F19BDC009A21BB /* AppIcons */,
+				04A213C522F18F28009A21BB /* ChangeAppIconVC.h */,
+				04A213C622F18F28009A21BB /* ChangeAppIconVC.m */,
+			);
+			path = ChnageAppIcon;
+			sourceTree = "<group>";
+		};
+		04A213E122F19BDC009A21BB /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				04A213EA22F19FA5009A21BB /* four.png */,
+				04A213EB22F19FA5009A21BB /* one.png */,
+				04A213EC22F19FA5009A21BB /* three.png */,
+				04A213ED22F19FA5009A21BB /* two.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
 		04CFB6A422DEACB1006C58FD /* AppServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,9 +600,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045637CA22D86CB6008F8E8B /* LaunchScreen.storyboard in Resources */,
+				04A213F122F19FA5009A21BB /* two.png in Resources */,
+				04924D0822F143B100922CC1 /* LaunchScreen.storyboard in Resources */,
+				04A213EF22F19FA5009A21BB /* one.png in Resources */,
+				04A213F022F19FA5009A21BB /* three.png in Resources */,
 				045637C722D86CB6008F8E8B /* Assets.xcassets in Resources */,
 				045637C522D86CB5008F8E8B /* Main.storyboard in Resources */,
+				04A213EE22F19FA5009A21BB /* four.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,19 +631,25 @@
 				046CF49A22D876B3002C015D /* NumbersVC.m in Sources */,
 				042C358B22E6D4A900FE3546 /* CoreAudioFunctionsVC.m in Sources */,
 				04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */,
+				04619D1622EFE1FB007FD182 /* UIDeviceVC.m in Sources */,
 				042C357F22E6BCC000FE3546 /* CoreAudioVC.m in Sources */,
 				046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */,
 				046CF48C22D871C3002C015D /* BaseTableVC.m in Sources */,
 				042C359722E6D6B400FE3546 /* CoreAudioKitVC.m in Sources */,
+				04619D2722F01E5E007FD182 /* UIApplicationVC.m in Sources */,
 				040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */,
 				042C359F22E6D8DB00FE3546 /* AUViewControllerVC.m in Sources */,
+				04A213C722F18F28009A21BB /* ChangeAppIconVC.m in Sources */,
 				042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */,
 				045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */,
 				04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */,
+				04619D1B22F01CB2007FD182 /* AppStructureVC.m in Sources */,
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,
+				04619D2322F01D83007FD182 /* DeviceEnvironmentVC.m in Sources */,
 				040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */,
 				046CF48F22D874FB002C015D /* FoundationVC.m in Sources */,
 				0449BC1122EBEEC6001A2516 /* UIKitVC.m in Sources */,
+				04619D1F22F01CFE007FD182 /* LifeCycleVC.m in Sources */,
 				046CF48222D86E5B002C015D /* BaseCellModel.m in Sources */,
 				046CF49322D875B8002C015D /* FundamentalsVC.m in Sources */,
 				046CF4A322D87893002C015D /* NSUIntegerVC.m in Sources */,
@@ -558,14 +666,6 @@
 				045637C422D86CB5008F8E8B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		045637C822D86CB6008F8E8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				045637C922D86CB6008F8E8B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
