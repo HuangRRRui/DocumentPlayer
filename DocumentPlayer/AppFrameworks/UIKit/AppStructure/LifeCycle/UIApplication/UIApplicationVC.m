@@ -45,6 +45,37 @@ UITableViewDataSource
     [UIApplication.sharedApplication beginReceivingRemoteControlEvents];
     [UIApplication.sharedApplication endReceivingRemoteControlEvents];
     [UIApplication.sharedApplication sendEvent:[UIEvent new]];
+    NSLog(@"UIApplication.sharedApplication.windows = %@", UIApplication.sharedApplication.windows);
+    NSLog(@"UIApplication.sharedApplication.preferredContentSizeCategory = %@", UIApplication.sharedApplication.preferredContentSizeCategory);
+    
+    NSLog(@"supportedInterfaceOrientations = %@", ({
+        NSString *str;
+        switch ([UIApplication.sharedApplication supportedInterfaceOrientationsForWindow:UIApplication.sharedApplication.keyWindow])
+        {
+            case UIInterfaceOrientationMaskPortrait:
+                str = @"UIInterfaceOrientationMaskPortrait";
+                break;
+            case UIInterfaceOrientationMaskLandscapeLeft:
+                str = @"UIInterfaceOrientationMaskLandscapeLeft";
+                break;
+            case UIInterfaceOrientationMaskLandscapeRight:
+                str = @"UIInterfaceOrientationMaskLandscapeRight";
+                break;
+            case UIInterfaceOrientationMaskPortraitUpsideDown:
+                str = @"UIInterfaceOrientationMaskPortraitUpsideDown";
+                break;
+            case UIInterfaceOrientationMaskLandscape:
+                str = @"UIInterfaceOrientationMaskLandscape";
+                break;
+            case UIInterfaceOrientationMaskAll:
+                str = @"UIInterfaceOrientationMaskAll";
+                break;
+            case UIInterfaceOrientationMaskAllButUpsideDown:
+                str = @"UIInterfaceOrientationMaskAllButUpsideDown";
+                break;
+        }
+        str;
+    }));
 }
 
 - (void)viewWillLayoutSubviews

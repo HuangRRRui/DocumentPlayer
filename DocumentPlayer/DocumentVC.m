@@ -27,7 +27,7 @@
                        [BaseCellModel modelWithTitle:@"Media" jumpClass:@"MediaVC"],
                        [BaseCellModel modelWithTitle:@"Web" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"Developer Tools" jumpClass:@""],
-                       [BaseCellModel modelWithTitle:@"System" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"System" jumpClass:@"SystemVC"],
                        ];
 }
 

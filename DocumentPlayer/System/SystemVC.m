@@ -1,30 +1,29 @@
 //
-//  AppStructureVC.m
+//  SystemVC.m
 //  DocumentPlayer
 //
-//  Created by 黄瑞 on 2019/7/30.
+//  Created by 黄瑞 on 2019/8/5.
 //  Copyright © 2019 黄瑞. All rights reserved.
 //
 
-#import "AppStructureVC.h"
+#import "SystemVC.h"
 
-@interface AppStructureVC ()
+@interface SystemVC ()
 
 @end
 
-@implementation AppStructureVC
+@implementation SystemVC
 
 #pragma mark - View did load
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"System";
     self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"App Structure";
     
     self.titleList = @[
-                       [BaseCellModel modelWithTitle:@"Life Cycle" jumpClass:@"LifeCycleVC"],
-                       [BaseCellModel modelWithTitle:@"Device Environment" jumpClass:@"DeviceEnvironmentVC"],
-                       [BaseCellModel modelWithTitle:@"Adaptivity" jumpClass:@"AdaptivityVC"],
-                       ];
+        [BaseCellModel modelWithTitle:@"CFNetwork" jumpClass:@"CFNetworkVC"],
+        [BaseCellModel modelWithTitle:@"SystemConfiguration" jumpClass:@"SystemConfigurationVC"],
+    ];
 }
 
 #pragma mark - NSNotification method

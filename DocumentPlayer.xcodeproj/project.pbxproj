@@ -19,6 +19,7 @@
 		042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359222E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m */; };
 		042C359722E6D6B400FE3546 /* CoreAudioKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */; };
 		042C359F22E6D8DB00FE3546 /* AUViewControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */; };
+		0445D7FF22F825F600F0CBC9 /* SystemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445D7FE22F825F600F0CBC9 /* SystemVC.m */; };
 		0449BC1122EBEEC6001A2516 /* UIKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449BC1022EBEEC6001A2516 /* UIKitVC.m */; };
 		045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045637BE22D86CB5008F8E8B /* AppDelegate.m */; };
 		045637C522D86CB5008F8E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045637C322D86CB5008F8E8B /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 		046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */; };
 		046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */; };
 		04924D0822F143B100922CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04924D0722F143B100922CC1 /* LaunchScreen.storyboard */; };
+		0498653122F294F000C532F1 /* AdaptivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498653022F294F000C532F1 /* AdaptivityVC.m */; };
+		0498653522F2954200C532F1 /* UITraitCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498653422F2954200C532F1 /* UITraitCollectionVC.m */; };
 		04A213C722F18F28009A21BB /* ChangeAppIconVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A213C622F18F28009A21BB /* ChangeAppIconVC.m */; };
 		04A213EE22F19FA5009A21BB /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A213EA22F19FA5009A21BB /* four.png */; };
 		04A213EF22F19FA5009A21BB /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A213EB22F19FA5009A21BB /* one.png */; };
@@ -51,6 +54,8 @@
 		04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6A722DEACD8006C58FD /* AppServicesVC.m */; };
 		04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AA22DEAD40006C58FD /* AddressBookVC.m */; };
 		04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AE22DEADA3006C58FD /* ContactsVC.m */; };
+		04FBC78522F8268700877A49 /* CFNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FBC78422F8268700877A49 /* CFNetworkVC.m */; };
+		04FBC78922F8277500877A49 /* SystemConfigurationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FBC78822F8277500877A49 /* SystemConfigurationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +83,8 @@
 		042C359622E6D6B400FE3546 /* CoreAudioKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAudioKitVC.m; sourceTree = "<group>"; };
 		042C359D22E6D8DB00FE3546 /* AUViewControllerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUViewControllerVC.h; sourceTree = "<group>"; };
 		042C359E22E6D8DB00FE3546 /* AUViewControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUViewControllerVC.m; sourceTree = "<group>"; };
+		0445D7FD22F825F600F0CBC9 /* SystemVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemVC.h; sourceTree = "<group>"; };
+		0445D7FE22F825F600F0CBC9 /* SystemVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemVC.m; sourceTree = "<group>"; };
 		0449BC0F22EBEEC6001A2516 /* UIKitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitVC.h; sourceTree = "<group>"; };
 		0449BC1022EBEEC6001A2516 /* UIKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitVC.m; sourceTree = "<group>"; };
 		045637BA22D86CB5008F8E8B /* DocumentPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +132,10 @@
 		046CF4AD22D9C560002C015D /* DecimalNumberBehaviors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalNumberBehaviors.h; sourceTree = "<group>"; };
 		046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalNumberBehaviors.m; sourceTree = "<group>"; };
 		04924D0722F143B100922CC1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0498652F22F294F000C532F1 /* AdaptivityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptivityVC.h; sourceTree = "<group>"; };
+		0498653022F294F000C532F1 /* AdaptivityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptivityVC.m; sourceTree = "<group>"; };
+		0498653322F2954200C532F1 /* UITraitCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITraitCollectionVC.h; sourceTree = "<group>"; };
+		0498653422F2954200C532F1 /* UITraitCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITraitCollectionVC.m; sourceTree = "<group>"; };
 		04A213C522F18F28009A21BB /* ChangeAppIconVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeAppIconVC.h; sourceTree = "<group>"; };
 		04A213C622F18F28009A21BB /* ChangeAppIconVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeAppIconVC.m; sourceTree = "<group>"; };
 		04A213EA22F19FA5009A21BB /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
@@ -137,6 +148,11 @@
 		04CFB6AA22DEAD40006C58FD /* AddressBookVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookVC.m; sourceTree = "<group>"; };
 		04CFB6AD22DEADA3006C58FD /* ContactsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsVC.h; sourceTree = "<group>"; };
 		04CFB6AE22DEADA3006C58FD /* ContactsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsVC.m; sourceTree = "<group>"; };
+		04F228F022F835320002DB7F /* DocumentPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocumentPlayer.entitlements; sourceTree = "<group>"; };
+		04FBC78322F8268700877A49 /* CFNetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetworkVC.h; sourceTree = "<group>"; };
+		04FBC78422F8268700877A49 /* CFNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFNetworkVC.m; sourceTree = "<group>"; };
+		04FBC78722F8277500877A49 /* SystemConfigurationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemConfigurationVC.h; sourceTree = "<group>"; };
+		04FBC78822F8277500877A49 /* SystemConfigurationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemConfigurationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +283,17 @@
 			path = AUViewController;
 			sourceTree = "<group>";
 		};
+		0445D7FC22F825E500F0CBC9 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				04FBC78222F8267800877A49 /* CFNetwork */,
+				04FBC78622F8275F00877A49 /* SystemConfiguration */,
+				0445D7FD22F825F600F0CBC9 /* SystemVC.h */,
+				0445D7FE22F825F600F0CBC9 /* SystemVC.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 		0449BC0E22EBEEB6001A2516 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,9 +323,11 @@
 		045637BC22D86CB5008F8E8B /* DocumentPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				04F228F022F835320002DB7F /* DocumentPlayer.entitlements */,
 				046CF48422D8716F002C015D /* AppFrameworks */,
 				04CFB6A422DEACB1006C58FD /* AppServices */,
 				042C357822E6BC8800FE3546 /* Media */,
+				0445D7FC22F825E500F0CBC9 /* System */,
 				046CF47E22D86E3E002C015D /* Base */,
 				045637BD22D86CB5008F8E8B /* AppDelegate.h */,
 				045637BE22D86CB5008F8E8B /* AppDelegate.m */,
@@ -328,6 +357,7 @@
 			children = (
 				04619D1C22F01CEB007FD182 /* LifeCycle */,
 				04619D2022F01D09007FD182 /* DeviceEnvironment */,
+				0498652E22F294C700C532F1 /* Adaptivity */,
 				04619D1922F01CB2007FD182 /* AppStructureVC.h */,
 				04619D1A22F01CB2007FD182 /* AppStructureVC.m */,
 			);
@@ -493,6 +523,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		0498652E22F294C700C532F1 /* Adaptivity */ = {
+			isa = PBXGroup;
+			children = (
+				0498653222F2952400C532F1 /* UITraitCollection */,
+				0498652F22F294F000C532F1 /* AdaptivityVC.h */,
+				0498653022F294F000C532F1 /* AdaptivityVC.m */,
+			);
+			path = Adaptivity;
+			sourceTree = "<group>";
+		};
+		0498653222F2952400C532F1 /* UITraitCollection */ = {
+			isa = PBXGroup;
+			children = (
+				0498653322F2954200C532F1 /* UITraitCollectionVC.h */,
+				0498653422F2954200C532F1 /* UITraitCollectionVC.m */,
+			);
+			path = UITraitCollection;
+			sourceTree = "<group>";
+		};
 		04A213C422F18F14009A21BB /* ChnageAppIcon */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,6 +590,24 @@
 				04CFB6AE22DEADA3006C58FD /* ContactsVC.m */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		04FBC78222F8267800877A49 /* CFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				04FBC78322F8268700877A49 /* CFNetworkVC.h */,
+				04FBC78422F8268700877A49 /* CFNetworkVC.m */,
+			);
+			path = CFNetwork;
+			sourceTree = "<group>";
+		};
+		04FBC78622F8275F00877A49 /* SystemConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				04FBC78722F8277500877A49 /* SystemConfigurationVC.h */,
+				04FBC78822F8277500877A49 /* SystemConfigurationVC.m */,
+			);
+			path = SystemConfiguration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -642,17 +709,22 @@
 				04A213C722F18F28009A21BB /* ChangeAppIconVC.m in Sources */,
 				042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */,
 				045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */,
+				0498653522F2954200C532F1 /* UITraitCollectionVC.m in Sources */,
 				04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */,
 				04619D1B22F01CB2007FD182 /* AppStructureVC.m in Sources */,
+				0498653122F294F000C532F1 /* AdaptivityVC.m in Sources */,
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,
 				04619D2322F01D83007FD182 /* DeviceEnvironmentVC.m in Sources */,
 				040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */,
 				046CF48F22D874FB002C015D /* FoundationVC.m in Sources */,
 				0449BC1122EBEEC6001A2516 /* UIKitVC.m in Sources */,
 				04619D1F22F01CFE007FD182 /* LifeCycleVC.m in Sources */,
+				0445D7FF22F825F600F0CBC9 /* SystemVC.m in Sources */,
 				046CF48222D86E5B002C015D /* BaseCellModel.m in Sources */,
 				046CF49322D875B8002C015D /* FundamentalsVC.m in Sources */,
 				046CF4A322D87893002C015D /* NSUIntegerVC.m in Sources */,
+				04FBC78522F8268700877A49 /* CFNetworkVC.m in Sources */,
+				04FBC78922F8277500877A49 /* SystemConfigurationVC.m in Sources */,
 				045637D522D86CD2008F8E8B /* DocumentVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,6 +859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DocumentPlayer/DocumentPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSP8LJW7DB;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DocumentPlayer/PrefixHeader.pch";
@@ -805,6 +878,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DocumentPlayer/DocumentPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSP8LJW7DB;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DocumentPlayer/PrefixHeader.pch";
