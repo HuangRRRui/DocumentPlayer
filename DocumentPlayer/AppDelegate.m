@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#ifdef DEBUG
+    NSLog(@"debug");
+#else
+    NSLog(@"release");
+#endif
+    
     NSLog(@"%s", __func__);
     return YES;
 }
