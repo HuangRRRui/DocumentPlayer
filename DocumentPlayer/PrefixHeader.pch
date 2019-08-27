@@ -15,4 +15,6 @@
 #import "BaseCellModel.h"
 #import "BaseTableVC.h"
 
+#import "UIView+easyFrame.h"
+
 #endif /* PrefixHeader_pch */

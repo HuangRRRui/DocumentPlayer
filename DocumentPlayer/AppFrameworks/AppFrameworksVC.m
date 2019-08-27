@@ -19,7 +19,7 @@
     self.title = @"App Frameworks";
     self.titleList = @[
                        [BaseCellModel modelWithTitle:@"AppKit" jumpClass:@""],
-                       [BaseCellModel modelWithTitle:@"Bundle Resources" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"Bundle Resources" jumpClass:@"BundleResourcesVC"],
                        [BaseCellModel modelWithTitle:@"Foundation" jumpClass:@"FoundationVC"],
                        [BaseCellModel modelWithTitle:@"Swift" jumpClass:@""],
                        [BaseCellModel modelWithTitle:@"SwiftUI" jumpClass:@""],

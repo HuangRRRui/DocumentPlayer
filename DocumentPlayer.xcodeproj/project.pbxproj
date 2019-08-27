@@ -10,6 +10,13 @@
 		040908C622E5863100D40DE1 /* FiltersandSortingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040908C522E5863100D40DE1 /* FiltersandSortingVC.m */; };
 		040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040908C922E5868F00D40DE1 /* NSPredicateVC.m */; };
 		040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040BB94D22DDC57C002AF92A /* NSNumberVC.m */; };
+		0426C7A323138F0F00D3C940 /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7A223138F0F00D3C940 /* WebVC.m */; };
+		0426C7A623138F1E00D3C940 /* DeveloperToolsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7A523138F1E00D3C940 /* DeveloperToolsVC.m */; };
+		0426C7A923138F2F00D3C940 /* GraphicsandGamesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7A823138F2F00D3C940 /* GraphicsandGamesVC.m */; };
+		0426C7AD23138F7F00D3C940 /* BundleResourcesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7AC23138F7F00D3C940 /* BundleResourcesVC.m */; };
+		0426C7B22313CF4500D3C940 /* EntitlementsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7B12313CF4500D3C940 /* EntitlementsVC.m */; };
+		0426C7B62313CF6000D3C940 /* InformationPropertyListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7B52313CF6000D3C940 /* InformationPropertyListVC.m */; };
+		0426C7BA2313DC1600D3C940 /* UIView+easyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426C7B92313DC1600D3C940 /* UIView+easyFrame.m */; };
 		042C357B22E6BC9E00FE3546 /* MediaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C357A22E6BC9E00FE3546 /* MediaVC.m */; };
 		042C357F22E6BCC000FE3546 /* CoreAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C357E22E6BCC000FE3546 /* CoreAudioVC.m */; };
 		042C358322E6BDA900FE3546 /* CoreAudioStructuresVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C358222E6BDA900FE3546 /* CoreAudioStructuresVC.m */; };
@@ -65,6 +72,20 @@
 		040908C922E5868F00D40DE1 /* NSPredicateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPredicateVC.m; sourceTree = "<group>"; };
 		040BB94C22DDC57C002AF92A /* NSNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberVC.h; sourceTree = "<group>"; };
 		040BB94D22DDC57C002AF92A /* NSNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberVC.m; sourceTree = "<group>"; };
+		0426C7A123138F0F00D3C940 /* WebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		0426C7A223138F0F00D3C940 /* WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
+		0426C7A423138F1E00D3C940 /* DeveloperToolsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeveloperToolsVC.h; sourceTree = "<group>"; };
+		0426C7A523138F1E00D3C940 /* DeveloperToolsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveloperToolsVC.m; sourceTree = "<group>"; };
+		0426C7A723138F2F00D3C940 /* GraphicsandGamesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsandGamesVC.h; sourceTree = "<group>"; };
+		0426C7A823138F2F00D3C940 /* GraphicsandGamesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsandGamesVC.m; sourceTree = "<group>"; };
+		0426C7AB23138F7F00D3C940 /* BundleResourcesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BundleResourcesVC.h; sourceTree = "<group>"; };
+		0426C7AC23138F7F00D3C940 /* BundleResourcesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleResourcesVC.m; sourceTree = "<group>"; };
+		0426C7B02313CF4500D3C940 /* EntitlementsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntitlementsVC.h; sourceTree = "<group>"; };
+		0426C7B12313CF4500D3C940 /* EntitlementsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntitlementsVC.m; sourceTree = "<group>"; };
+		0426C7B42313CF6000D3C940 /* InformationPropertyListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationPropertyListVC.h; sourceTree = "<group>"; };
+		0426C7B52313CF6000D3C940 /* InformationPropertyListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationPropertyListVC.m; sourceTree = "<group>"; };
+		0426C7B82313DC1600D3C940 /* UIView+easyFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+easyFrame.h"; sourceTree = "<group>"; };
+		0426C7B92313DC1600D3C940 /* UIView+easyFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+easyFrame.m"; sourceTree = "<group>"; };
 		042C357922E6BC9E00FE3546 /* MediaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaVC.h; sourceTree = "<group>"; };
 		042C357A22E6BC9E00FE3546 /* MediaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaVC.m; sourceTree = "<group>"; };
 		042C357D22E6BCC000FE3546 /* CoreAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAudioVC.h; sourceTree = "<group>"; };
@@ -192,6 +213,71 @@
 				040BB94D22DDC57C002AF92A /* NSNumberVC.m */,
 			);
 			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		0426C79E23138EC400D3C940 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7A123138F0F00D3C940 /* WebVC.h */,
+				0426C7A223138F0F00D3C940 /* WebVC.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		0426C79F23138EC800D3C940 /* DeveloperTools */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7A423138F1E00D3C940 /* DeveloperToolsVC.h */,
+				0426C7A523138F1E00D3C940 /* DeveloperToolsVC.m */,
+			);
+			path = DeveloperTools;
+			sourceTree = "<group>";
+		};
+		0426C7A023138EE500D3C940 /* GraphicsandGames */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7A723138F2F00D3C940 /* GraphicsandGamesVC.h */,
+				0426C7A823138F2F00D3C940 /* GraphicsandGamesVC.m */,
+			);
+			path = GraphicsandGames;
+			sourceTree = "<group>";
+		};
+		0426C7AA23138F6D00D3C940 /* BundleResources */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7AF2313CF3500D3C940 /* Entitlements */,
+				0426C7B32313CF4B00D3C940 /* InformationPropertyList */,
+				0426C7AB23138F7F00D3C940 /* BundleResourcesVC.h */,
+				0426C7AC23138F7F00D3C940 /* BundleResourcesVC.m */,
+			);
+			path = BundleResources;
+			sourceTree = "<group>";
+		};
+		0426C7AF2313CF3500D3C940 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7B02313CF4500D3C940 /* EntitlementsVC.h */,
+				0426C7B12313CF4500D3C940 /* EntitlementsVC.m */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		0426C7B32313CF4B00D3C940 /* InformationPropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7B42313CF6000D3C940 /* InformationPropertyListVC.h */,
+				0426C7B52313CF6000D3C940 /* InformationPropertyListVC.m */,
+			);
+			path = InformationPropertyList;
+			sourceTree = "<group>";
+		};
+		0426C7B72313DC0200D3C940 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0426C7B82313DC1600D3C940 /* UIView+easyFrame.h */,
+				0426C7B92313DC1600D3C940 /* UIView+easyFrame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		042C357822E6BC8800FE3546 /* Media */ = {
@@ -323,12 +409,16 @@
 		045637BC22D86CB5008F8E8B /* DocumentPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				04F228F022F835320002DB7F /* DocumentPlayer.entitlements */,
 				046CF48422D8716F002C015D /* AppFrameworks */,
+				0426C7A023138EE500D3C940 /* GraphicsandGames */,
 				04CFB6A422DEACB1006C58FD /* AppServices */,
 				042C357822E6BC8800FE3546 /* Media */,
+				0426C79E23138EC400D3C940 /* Web */,
+				0426C79F23138EC800D3C940 /* DeveloperTools */,
 				0445D7FC22F825E500F0CBC9 /* System */,
+				04F228F022F835320002DB7F /* DocumentPlayer.entitlements */,
 				046CF47E22D86E3E002C015D /* Base */,
+				0426C7B72313DC0200D3C940 /* Category */,
 				045637BD22D86CB5008F8E8B /* AppDelegate.h */,
 				045637BE22D86CB5008F8E8B /* AppDelegate.m */,
 				045637D322D86CD2008F8E8B /* DocumentVC.h */,
@@ -415,6 +505,7 @@
 		046CF48422D8716F002C015D /* AppFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0426C7AA23138F6D00D3C940 /* BundleResources */,
 				046CF48522D87195002C015D /* Foundation */,
 				0449BC0E22EBEEB6001A2516 /* UIKit */,
 				046CF48622D871AA002C015D /* AppFrameworksVC.h */,
@@ -684,10 +775,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0426C7A323138F0F00D3C940 /* WebVC.m in Sources */,
+				0426C7A623138F1E00D3C940 /* DeveloperToolsVC.m in Sources */,
 				045637CD22D86CB6008F8E8B /* main.m in Sources */,
 				046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */,
 				042C358722E6BDC200FE3546 /* CoreAudioDataTypesVC.m in Sources */,
 				042C358322E6BDA900FE3546 /* CoreAudioStructuresVC.m in Sources */,
+				0426C7AD23138F7F00D3C940 /* BundleResourcesVC.m in Sources */,
 				046CF49722D87661002C015D /* NumbersDataandBasicValuesVC.m in Sources */,
 				040908C622E5863100D40DE1 /* FiltersandSortingVC.m in Sources */,
 				042C358F22E6D4C300FE3546 /* CoreAudioConstantsVC.m in Sources */,
@@ -703,6 +797,8 @@
 				046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */,
 				046CF48C22D871C3002C015D /* BaseTableVC.m in Sources */,
 				042C359722E6D6B400FE3546 /* CoreAudioKitVC.m in Sources */,
+				0426C7B62313CF6000D3C940 /* InformationPropertyListVC.m in Sources */,
+				0426C7BA2313DC1600D3C940 /* UIView+easyFrame.m in Sources */,
 				04619D2722F01E5E007FD182 /* UIApplicationVC.m in Sources */,
 				040908CA22E5868F00D40DE1 /* NSPredicateVC.m in Sources */,
 				042C359F22E6D8DB00FE3546 /* AUViewControllerVC.m in Sources */,
@@ -710,6 +806,7 @@
 				042C359322E6D4FC00FE3546 /* CoreAudioEnumerationsVC.m in Sources */,
 				045637BF22D86CB5008F8E8B /* AppDelegate.m in Sources */,
 				0498653522F2954200C532F1 /* UITraitCollectionVC.m in Sources */,
+				0426C7A923138F2F00D3C940 /* GraphicsandGamesVC.m in Sources */,
 				04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */,
 				04619D1B22F01CB2007FD182 /* AppStructureVC.m in Sources */,
 				0498653122F294F000C532F1 /* AdaptivityVC.m in Sources */,
@@ -725,6 +822,7 @@
 				046CF4A322D87893002C015D /* NSUIntegerVC.m in Sources */,
 				04FBC78522F8268700877A49 /* CFNetworkVC.m in Sources */,
 				04FBC78922F8277500877A49 /* SystemConfigurationVC.m in Sources */,
+				0426C7B22313CF4500D3C940 /* EntitlementsVC.m in Sources */,
 				045637D522D86CD2008F8E8B /* DocumentVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -860,9 +958,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DocumentPlayer/DocumentPlayer.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSP8LJW7DB;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DocumentPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = DocumentPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -881,8 +979,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DocumentPlayer/DocumentPlayer.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSP8LJW7DB;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DocumentPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = DocumentPlayer/Info.plist;
@@ -892,7 +990,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.huangrui.DocumentPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DocumentPlayer;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

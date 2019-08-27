@@ -22,11 +22,11 @@
     
     self.titleList = @[
                        [BaseCellModel modelWithTitle:@"App Frameworks" jumpClass:@"AppFrameworksVC"],
-                       [BaseCellModel modelWithTitle:@"Graphics and Games" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"Graphics and Games" jumpClass:@"GraphicsandGamesVC"],
                        [BaseCellModel modelWithTitle:@"App Services" jumpClass:@"AppServicesVC"],
                        [BaseCellModel modelWithTitle:@"Media" jumpClass:@"MediaVC"],
-                       [BaseCellModel modelWithTitle:@"Web" jumpClass:@""],
-                       [BaseCellModel modelWithTitle:@"Developer Tools" jumpClass:@""],
+                       [BaseCellModel modelWithTitle:@"Web" jumpClass:@"Web"],
+                       [BaseCellModel modelWithTitle:@"Developer Tools" jumpClass:@"DeveloperToolsVC"],
                        [BaseCellModel modelWithTitle:@"System" jumpClass:@"SystemVC"],
                        ];
 }
