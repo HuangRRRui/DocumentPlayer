@@ -50,6 +50,7 @@
 		046CF4A722D8792A002C015D /* NSDecimalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4A622D8792A002C015D /* NSDecimalVC.m */; };
 		046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */; };
 		046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */; };
+		046FE14D2314CF5300C43D25 /* AudioToolboxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 046FE14C2314CF5300C43D25 /* AudioToolboxVC.m */; };
 		04924D0822F143B100922CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04924D0722F143B100922CC1 /* LaunchScreen.storyboard */; };
 		0498653122F294F000C532F1 /* AdaptivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498653022F294F000C532F1 /* AdaptivityVC.m */; };
 		0498653522F2954200C532F1 /* UITraitCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498653422F2954200C532F1 /* UITraitCollectionVC.m */; };
@@ -61,6 +62,8 @@
 		04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6A722DEACD8006C58FD /* AppServicesVC.m */; };
 		04CFB6AB22DEAD40006C58FD /* AddressBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AA22DEAD40006C58FD /* AddressBookVC.m */; };
 		04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AE22DEADA3006C58FD /* ContactsVC.m */; };
+		04DA1752231667B7002E072C /* AVFoundationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA1751231667B7002E072C /* AVFoundationVC.m */; };
+		04DA1756231669F8002E072C /* PlaybackandEditingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA1755231669F8002E072C /* PlaybackandEditingVC.m */; };
 		04FBC78522F8268700877A49 /* CFNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FBC78422F8268700877A49 /* CFNetworkVC.m */; };
 		04FBC78922F8277500877A49 /* SystemConfigurationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FBC78822F8277500877A49 /* SystemConfigurationVC.m */; };
 /* End PBXBuildFile section */
@@ -152,6 +155,8 @@
 		046CF4AA22D9B3C6002C015D /* NSDecimalNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDecimalNumberVC.m; sourceTree = "<group>"; };
 		046CF4AD22D9C560002C015D /* DecimalNumberBehaviors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalNumberBehaviors.h; sourceTree = "<group>"; };
 		046CF4AE22D9C560002C015D /* DecimalNumberBehaviors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalNumberBehaviors.m; sourceTree = "<group>"; };
+		046FE14B2314CF5300C43D25 /* AudioToolboxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioToolboxVC.h; sourceTree = "<group>"; };
+		046FE14C2314CF5300C43D25 /* AudioToolboxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolboxVC.m; sourceTree = "<group>"; };
 		04924D0722F143B100922CC1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0498652F22F294F000C532F1 /* AdaptivityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptivityVC.h; sourceTree = "<group>"; };
 		0498653022F294F000C532F1 /* AdaptivityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptivityVC.m; sourceTree = "<group>"; };
@@ -169,6 +174,10 @@
 		04CFB6AA22DEAD40006C58FD /* AddressBookVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookVC.m; sourceTree = "<group>"; };
 		04CFB6AD22DEADA3006C58FD /* ContactsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsVC.h; sourceTree = "<group>"; };
 		04CFB6AE22DEADA3006C58FD /* ContactsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsVC.m; sourceTree = "<group>"; };
+		04DA1750231667B7002E072C /* AVFoundationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFoundationVC.h; sourceTree = "<group>"; };
+		04DA1751231667B7002E072C /* AVFoundationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationVC.m; sourceTree = "<group>"; };
+		04DA1754231669F8002E072C /* PlaybackandEditingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackandEditingVC.h; sourceTree = "<group>"; };
+		04DA1755231669F8002E072C /* PlaybackandEditingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaybackandEditingVC.m; sourceTree = "<group>"; };
 		04F228F022F835320002DB7F /* DocumentPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocumentPlayer.entitlements; sourceTree = "<group>"; };
 		04FBC78322F8268700877A49 /* CFNetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetworkVC.h; sourceTree = "<group>"; };
 		04FBC78422F8268700877A49 /* CFNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFNetworkVC.m; sourceTree = "<group>"; };
@@ -283,6 +292,8 @@
 		042C357822E6BC8800FE3546 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				046FE14A2314CF4300C43D25 /* AudioToolbox */,
+				04DA174F231667A9002E072C /* AVFoundation */,
 				042C357C22E6BCB000FE3546 /* CoreAudio */,
 				042C359422E6D6A300FE3546 /* CoreAudioKit */,
 				042C357922E6BC9E00FE3546 /* MediaVC.h */,
@@ -614,6 +625,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		046FE14A2314CF4300C43D25 /* AudioToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				046FE14B2314CF5300C43D25 /* AudioToolboxVC.h */,
+				046FE14C2314CF5300C43D25 /* AudioToolboxVC.m */,
+			);
+			path = AudioToolbox;
+			sourceTree = "<group>";
+		};
 		0498652E22F294C700C532F1 /* Adaptivity */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +701,25 @@
 				04CFB6AE22DEADA3006C58FD /* ContactsVC.m */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		04DA174F231667A9002E072C /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				04DA1753231669EE002E072C /* PlaybackandEditing */,
+				04DA1750231667B7002E072C /* AVFoundationVC.h */,
+				04DA1751231667B7002E072C /* AVFoundationVC.m */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		04DA1753231669EE002E072C /* PlaybackandEditing */ = {
+			isa = PBXGroup;
+			children = (
+				04DA1754231669F8002E072C /* PlaybackandEditingVC.h */,
+				04DA1755231669F8002E072C /* PlaybackandEditingVC.m */,
+			);
+			path = PlaybackandEditing;
 			sourceTree = "<group>";
 		};
 		04FBC78222F8267800877A49 /* CFNetwork */ = {
@@ -787,11 +826,13 @@
 				042C358F22E6D4C300FE3546 /* CoreAudioConstantsVC.m in Sources */,
 				046CF48822D871AA002C015D /* AppFrameworksVC.m in Sources */,
 				042C357B22E6BC9E00FE3546 /* MediaVC.m in Sources */,
+				04DA1756231669F8002E072C /* PlaybackandEditingVC.m in Sources */,
 				046CF4AB22D9B3C6002C015D /* NSDecimalNumberVC.m in Sources */,
 				04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */,
 				046CF49A22D876B3002C015D /* NumbersVC.m in Sources */,
 				042C358B22E6D4A900FE3546 /* CoreAudioFunctionsVC.m in Sources */,
 				04CFB6A822DEACD8006C58FD /* AppServicesVC.m in Sources */,
+				046FE14D2314CF5300C43D25 /* AudioToolboxVC.m in Sources */,
 				04619D1622EFE1FB007FD182 /* UIDeviceVC.m in Sources */,
 				042C357F22E6BCC000FE3546 /* CoreAudioVC.m in Sources */,
 				046CF4AF22D9C560002C015D /* DecimalNumberBehaviors.m in Sources */,
@@ -811,6 +852,7 @@
 				04619D1B22F01CB2007FD182 /* AppStructureVC.m in Sources */,
 				0498653122F294F000C532F1 /* AdaptivityVC.m in Sources */,
 				046CF49F22D8775D002C015D /* NSIntegerVC.m in Sources */,
+				04DA1752231667B7002E072C /* AVFoundationVC.m in Sources */,
 				04619D2322F01D83007FD182 /* DeviceEnvironmentVC.m in Sources */,
 				040BB94E22DDC57C002AF92A /* NSNumberVC.m in Sources */,
 				046CF48F22D874FB002C015D /* FoundationVC.m in Sources */,

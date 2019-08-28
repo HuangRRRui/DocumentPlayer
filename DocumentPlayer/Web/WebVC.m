@@ -20,19 +20,19 @@
     [super viewDidLoad];
     self.title = @"Web";
     self.titleList = @[
-        [BaseCellModel modelWithTitle:@"App Store Connect API" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"Apple Music API" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"Apple Pay on the Web" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"CloudKit JS" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"LinkPresentation" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"LivePhotosKt JS" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"MapKit JS" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"Maps WebSnapshots" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"MusicKit JS" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"Safari Extensions JS" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"Sign in with Apple JS" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"Sign in with Apple REST API" jumpClass:@"ContactsVC"],
-        [BaseCellModel modelWithTitle:@"WebKit JS" jumpClass:@"ContactsVC"],
+        [BaseCellModel modelWithTitle:@"App Store Connect API" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"Apple Music API" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"Apple Pay on the Web" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"CloudKit JS" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"LinkPresentation" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"LivePhotosKt JS" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"MapKit JS" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"Maps WebSnapshots" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"MusicKit JS" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"Safari Extensions JS" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"Sign in with Apple JS" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"Sign in with Apple REST API" jumpClass:@""],
+        [BaseCellModel modelWithTitle:@"WebKit JS" jumpClass:@""],
     ];
 }
 

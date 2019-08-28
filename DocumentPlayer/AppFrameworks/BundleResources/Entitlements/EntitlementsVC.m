@@ -79,7 +79,7 @@ UITableViewDataSource
         cell.detailTextLabel.numberOfLines = 99;
     }
     
-    switch (indexPath.row)
+    switch (indexPath.section)
     {
         case 0:
         {
@@ -93,21 +93,25 @@ UITableViewDataSource
                 {
                     [title appendFormat:@"%@ = %@\n", key, dic[key]];
                 }
-                cell.textLabel.text = @"只有当给予了 Access WiFi Information Entitlement 权限后，才能读取到网络信息";
                 cell.detailTextLabel.text = title;
             }
+            cell.textLabel.text = @"只有当给予了 Access WiFi Information Entitlement 权限后，才能读取到网络信息";
         }
             break;
         case 1:
         {
-            cell.textLabel.text = @"App Groups Entitlement";
-            cell.detailTextLabel.text = @"App Groups Enttilement Identifier = group.com.huangruii.documentplayer";
+            cell.textLabel.text = @"App Groups Enttilement Identifier = group.com.huangruii.documentplayer";
         }
         default:
             break;
     }
     
     return cell;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
 }
 
 #pragma mark - Other
