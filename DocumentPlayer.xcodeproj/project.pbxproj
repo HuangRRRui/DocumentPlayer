@@ -64,6 +64,8 @@
 		04CFB6AF22DEADA3006C58FD /* ContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB6AE22DEADA3006C58FD /* ContactsVC.m */; };
 		04DA1752231667B7002E072C /* AVFoundationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA1751231667B7002E072C /* AVFoundationVC.m */; };
 		04DA1756231669F8002E072C /* PlaybackandEditingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA1755231669F8002E072C /* PlaybackandEditingVC.m */; };
+		04DA175A23167DAA002E072C /* 001.mov in Resources */ = {isa = PBXBuildFile; fileRef = 04DA175923167DAA002E072C /* 001.mov */; };
+		04DA175D23167F3B002E072C /* 001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04DA175C23167F3B002E072C /* 001.mp3 */; };
 		04FBC78522F8268700877A49 /* CFNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FBC78422F8268700877A49 /* CFNetworkVC.m */; };
 		04FBC78922F8277500877A49 /* SystemConfigurationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FBC78822F8277500877A49 /* SystemConfigurationVC.m */; };
 /* End PBXBuildFile section */
@@ -178,6 +180,8 @@
 		04DA1751231667B7002E072C /* AVFoundationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationVC.m; sourceTree = "<group>"; };
 		04DA1754231669F8002E072C /* PlaybackandEditingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackandEditingVC.h; sourceTree = "<group>"; };
 		04DA1755231669F8002E072C /* PlaybackandEditingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaybackandEditingVC.m; sourceTree = "<group>"; };
+		04DA175923167DAA002E072C /* 001.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 001.mov; sourceTree = "<group>"; };
+		04DA175C23167F3B002E072C /* 001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 001.mp3; sourceTree = "<group>"; };
 		04F228F022F835320002DB7F /* DocumentPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocumentPlayer.entitlements; sourceTree = "<group>"; };
 		04FBC78322F8268700877A49 /* CFNetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetworkVC.h; sourceTree = "<group>"; };
 		04FBC78422F8268700877A49 /* CFNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFNetworkVC.m; sourceTree = "<group>"; };
@@ -440,6 +444,7 @@
 				045637CB22D86CB6008F8E8B /* Info.plist */,
 				045637CC22D86CB6008F8E8B /* main.m */,
 				046CF48322D86EDB002C015D /* PrefixHeader.pch */,
+				04DA175B23167F06002E072C /* Assets */,
 			);
 			path = DocumentPlayer;
 			sourceTree = "<group>";
@@ -722,6 +727,15 @@
 			path = PlaybackandEditing;
 			sourceTree = "<group>";
 		};
+		04DA175B23167F06002E072C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04DA175C23167F3B002E072C /* 001.mp3 */,
+				04DA175923167DAA002E072C /* 001.mov */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		04FBC78222F8267800877A49 /* CFNetwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -797,6 +811,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DA175A23167DAA002E072C /* 001.mov in Resources */,
+				04DA175D23167F3B002E072C /* 001.mp3 in Resources */,
 				04A213F122F19FA5009A21BB /* two.png in Resources */,
 				04924D0822F143B100922CC1 /* LaunchScreen.storyboard in Resources */,
 				04A213EF22F19FA5009A21BB /* one.png in Resources */,

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DocumentVC.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
 
@@ -33,6 +34,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[DocumentVC alloc] init]];
     [self.window makeKeyAndVisible];
+    
+    [self configPlayback];
+    
     return YES;
 }
 
@@ -203,6 +207,23 @@
 {
     NSLog(@"%s", __func__);
     return UIInterfaceOrientationMaskAll;
+}
+
+- (void)configPlayback
+{
+    NSError *error;
+    
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&error];
+    if (error)
+    {
+        NSLog(@"setCategory:AVAudioSessionCategoryPlayback error = %@", error);
+    }
+    
+    [[AVAudioSession sharedInstance] setMode:AVAudioSessionModeMoviePlayback error:&error];
+    if (error)
+    {
+        NSLog(@"setMode:AVAudioSessionModeMoviePlayback error = %@", error);
+    }
 }
 
 @end
